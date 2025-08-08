@@ -4,7 +4,9 @@ description: "Architecture leadership: strategy, governance, and applied systems
 url: "https://sumeethtewar.github.io"
 baseurl: "" # leave blank for user.github.io sites
 theme: "minima"
-
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # navigation
 #header:
