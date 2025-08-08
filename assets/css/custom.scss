@@ -1,0 +1,51 @@
+---
+---
+/* Import Google Fonts (quick method) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+  --brand-1: #0B5FFF; /* primary */
+  --accent-1: #FF6B35; /* accent */
+  --muted-bg: #F7FAFF;
+  --text-dark: #0F1724;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, "Helvetica Neue", Arial;
+  color: var(--text-dark);
+  background-color: var(--muted-bg);
+}
+
+/* Header hero tweaks */
+.site-header {
+  background: linear-gradient(135deg, rgba(11,91,255,0.08), rgba(255,107,53,0.02));
+}
+
+/* Card hover */
+.card {
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(11,13,16,0.06);
+}
+
+/* Buttons */
+.btn--primary {
+  background: linear-gradient(90deg, var(--brand-1), darken(var(--brand-1), 6%));
+  color: white;
+  border-radius: 14px;
+  padding: 10px 18px;
+}
+
+/* Example accent underline for headings */
+h2::after {
+  content: '';
+  display: block;
+  width: 56px;
+  height: 4px;
+  background: var(--accent-1);
+  margin-top: 10px;
+  border-radius: 4px;
+}
