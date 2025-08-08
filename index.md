@@ -4,6 +4,8 @@ title: "Welcome"
 permalink: /
 ---
 
-# Welcome to my site
+# Welcome to My Website
 
 This is the homepage for my architecture leadership portfolio.
+
+
