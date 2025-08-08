@@ -3,18 +3,12 @@ email: sumeet.tewar@gmail.com
 description: "Architecture leadership: strategy, governance, and applied systems thinking"
 url: "https://sumeethtewar.github.io"
 baseurl: "" # leave blank for user.github.io sites
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+theme: "minima"
+
 
 # navigation
 #header:
 #  logo: "/assets/images/logo.svg"
-
-collections:
-  posts:
-    output: true
 
 permalink: /:title/
 
