@@ -1,8 +1,9 @@
 ---
 layout: home
-title: "Sumeeth Tewar"
-subtitle: "Architecture leader — strategy, governance & platform thinking"
+title: "Welcome"
 permalink: /
 ---
 
-Welcome! I'm an architect focused on aligning systems design with long-term business strategy. Explore my portfolio and writing.
+# Welcome to my site
+
+This is the homepage for my architecture leadership portfolio.
