@@ -9,8 +9,8 @@ plugins:
   - jekyll-seo-tag
 
 # navigation
-header:
-  logo: "/assets/images/logo.svg"
+#header:
+#  logo: "/assets/images/logo.svg"
 
 collections:
   posts:
