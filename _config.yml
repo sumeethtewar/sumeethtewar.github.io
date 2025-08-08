@@ -19,4 +19,4 @@ collections:
 permalink: /:title/
 
 # minimal settings to start
-paginate: 5
+#paginate: 5
